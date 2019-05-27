@@ -75,6 +75,3 @@ class sqliScannerClass():
                 print("Vulnerable\t"+url)
                 return
 
-cc = sqliScannerClass()
-cc.createSqliUrl("http://www.copalpublishing.com/book-detail.php?id=34")
-
