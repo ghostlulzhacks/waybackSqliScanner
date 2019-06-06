@@ -2,6 +2,9 @@ import requests
 import sys
 import json
 
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+
 class waybackMachineClass():
 
         def __init__(self,domain):
